@@ -27,6 +27,9 @@ import quickfix.field.Side;
 import quickfix.field.TradeCondition;
 import quickfix.fix50.MarketDataIncrementalRefresh;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 import java.io.UnsupportedEncodingException;
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -35,8 +38,6 @@ import java.time.LocalTime;
 import java.util.Arrays;
 import java.util.Date;
 
-import static junit.framework.Assert.assertEquals;
-import static junit.framework.Assert.assertTrue;
 
 public class FieldTest {
 
